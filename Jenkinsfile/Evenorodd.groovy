@@ -27,6 +27,6 @@ def call(int buildNumber) {
 
 
 // Jenkinsfile
-@Library('my-shared-library') _
+@Library('shared_library') _
 
 evenOrOdd(currentBuild.getNumber())
